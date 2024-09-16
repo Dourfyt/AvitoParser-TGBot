@@ -25,7 +25,7 @@ connection.commit()
 connection.close()
 
 
-API_TOKEN = '6626481813:AAGBT99QgG28pFslXoSy9RgquKx99kg5C6w'
+API_TOKEN = 'API_TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
